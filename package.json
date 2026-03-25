@@ -1,0 +1,25 @@
+{
+  "name": "nnptud-c4",
+  "version": "1.0.0",
+  "description": "Inventory Management API with Node.js, Express and SQL Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlserver",
+    "inventory",
+    "api"
+  ],
+  "author": "Linh Nguyen Hoang",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "msnodesqlv8": "^5.1.5",
+    "mssql": "^12.2.1"
+  }
+}
